@@ -38,3 +38,7 @@ export function isIterator(obj) {
 export function isGeneratorFunction(f) {
   return typeof f === 'function' && /^function\s*\*\s*/.test(f.toString());
 }
+
+export function isAsyncFunction(f) {
+  return typeof f === 'function' && /^async function\s*/.test(f.toString());
+}
