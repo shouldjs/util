@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Utility functions",
   "main": "cjs/should-util.js",
+  "module": "es6/should-util.js",
   "jsnext:main": "es6/should-util.js",
   "scripts": {
     "cjs": "rollup --format=cjs --output=cjs/should-util.js index.js",
